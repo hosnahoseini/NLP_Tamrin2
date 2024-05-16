@@ -1,0 +1,18 @@
+connectors:
+  matrix:
+    mxid: "@bot_finglish_to_persian:matrix.org"
+    password: "NLP_HW2_bot"
+    rooms:
+      main: "#otaghiporazbot7:matrix.org"
+    homeserver: "https://matrix.org"  # You can omit this if you are using matrix.org
+    nick: "NLP_HW2_7"
+    device_id: "OPSDroid"
+    enable_encryption: True
+skills:
+  accept_invite:
+    path: skills/accept_invite.py
+  hi:
+    path: skills/hi.py
+  phinglish:
+    path: skills/phinglish.py
+
