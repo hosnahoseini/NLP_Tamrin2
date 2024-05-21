@@ -1,10 +1,10 @@
 connectors:
   matrix:
-    mxid: "@bot_finglish_to_persian:matrix.org"
+    mxid: "@bot_finglish_to_persian:bot.parsi.ai"
     password: "NLP_HW2_bot"
     rooms:
-      main: "#otaghiporazbot7:matrix.org"
-    homeserver: "https://matrix.org"  # You can omit this if you are using matrix.org
+      main: "#otaghiporazbot7:bot.parsi.ai"
+    homeserver: "https://bot.parsi.ai"  # You can omit this if you are using bot.parsi.ai
     nick: "NLP_HW2_7"
     device_id: "OPSDroid"
     enable_encryption: True
