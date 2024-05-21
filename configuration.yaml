@@ -12,7 +12,6 @@ skills:
   accept_invite:
     path: skills/accept_invite.py
   hi:
-    path: skills/hi.py
-  phinglish:
-    path: skills/phinglish.py
+    path: skills/task.py
+
 
